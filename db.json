@@ -1,102 +1,157 @@
 {
-  "transactions": [
-    {
-      "id": 1,
-      "date": "2019-12-01",
-      "description": "Paycheck from Bob's Burgers",
-      "category": "Income",
-      "amount": 1000
-    },
-    {
-      "id": 2,
-      "date": "2019-12-01",
-      "description": "South by Southwest Quinoa Bowl at Fresh & Co",
-      "category": "Food",
-      "amount": -10.55
-    },
-    {
-      "id": 3,
-      "date": "2019-12-02",
-      "description": "South by Southwest Quinoa Bowl at Fresh & Co",
-      "category": "Food",
-      "amount": -10.55
-    },
-    {
-      "id": 4,
-      "date": "2019-12-04",
-      "description": "Sunglasses, Urban Outfitters",
-      "category": "Fashion",
-      "amount": -24.99
-    },
-    {
-      "id": 5,
-      "date": "2019-12-06",
-      "description": "Venmo, Alice Pays you for Burrito",
-      "category": "Food",
-      "amount": 8.75
-    },
-    {
-      "id": 6,
-      "date": "2019-12-06",
-      "description": "Chipotle",
-      "category": "Food",
-      "amount": -17.59
-    },
-    {
-      "id": 7,
-      "date": "2019-12-07",
-      "description": "Birthday Check from Grandma",
-      "category": "Gift",
-      "amount": 50
-    },
-    {
-      "id": 8,
-      "date": "2019-12-09",
-      "description": "Lyft Ride",
-      "category": "Transportation",
-      "amount": -13.25
-    },
-    {
-      "id": 9,
-      "date": "2019-12-11",
-      "description": "Paycheck from Bob's Burgers",
-      "category": "Income",
-      "amount": 1000
-    },
-    {
-      "id": 10,
-      "date": "2019-12-16",
-      "description": "Tickets, Flatiron Multiplex Cinemas",
-      "category": "Entertainment",
-      "amount": -24
-    },
-    {
-      "id": 11,
-      "date": "2019-12-16",
-      "description": "MTA Vending Machine: MetroCard",
-      "category": "Transportation",
-      "amount": -116.39
-    },
-    {
-      "id": 12,
-      "date": "2019-12-17",
-      "description": "Venmo, Pay Roommate for Rent",
-      "category": "Housing",
-      "amount": -975
-    },
-    {
-      "date": "2022-07-09",
-      "description": "Office lunch",
-      "category": "Food",
-      "amount": "2000",
-      "id": 13
-    },
-    {
-      "date": "2022-07-09",
-      "description": "Office lunch Wednesday",
-      "category": "Food",
-      "amount": "3000",
-      "id": 14
-    }
+  "Balls" : [
+      {
+          "basketball" : [
+              {
+                  "type": "Molten",
+                  "size" : "5-7",
+                  "color" : "Yellow/Oramge/Black",
+                  "description" : "Affordable and high quality build.",
+                  "image" : "https://ke.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/17/3446191/1.jpg?0945"
+              },
+              {
+                  "type" : "Spalding",
+                  "size" : "5-7",
+                  "color" : "Orange",
+                  "description" :"Professional and reliable ball that is long lasting.",
+                  "image" : "https://www.spalding.com/dw/image/v2/ABAH_PRD/on/demandware.static/-/Sites-masterCatalog_SPALDING/default/dwc7c75b41/images/hi-res/770148__FRONT_SIDE.jpg?sw=555&sh=689&sm=cut&sfrm=jpg"
+
+              }
+          ],
+          "Football" : [
+              {
+                  "type" : "Adidas MLS 24 Mini Ball",
+                  "color" : "white",
+                  "description" : "Long lasting ball and affordable",
+                  "image" : "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/8da6cd11fcd8460bac2f3e06582d540c_9366/MLS_24_Mini_Ball_White_IP1623_01_standard.jpg"
+              },
+              {
+                  "type": "Nike Maestro",
+                  "color" : "beige",
+                  "description" : "Unique look and strong",
+                  "image" : "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/298477a4-07b6-407f-b76c-643032b79eab/maestro-futsal-ball-bpBb0H.png"
+              }
+          ]
+
+          
+      }
+  ],
+  "Jersey" : [
+      {
+              "type" : "Manchester United Away 2023/24",
+              "color" : "Green",
+              "size" : "S/M/L/XL/XXL",
+              "price" : "Ksh.8,000",
+              "image" : "https://images.footballfanatics.com/manchester-united/manchester-united-adidas-away-authentic-shirt-2023-24_ss5_p-13384928+pv-1+u-nwq4yf1w24fppxisvxd5+v-tzj4poumbd1vsix3weds.jpg?_hv=2&w=900"
+          },
+          {
+              "type" : "FC Barcelona Home Shirt 2023/24",
+              "color" : "Blue and Red",
+              "size" : "S/M/L/XL/XXL",
+              "price" : "Ksh.8,500",
+              "image" : "https://store.fcbarcelona.com/cdn/shop/files/24100CA_1_d56d22d5-50fa-41e2-b09b-5aebe501baa1.jpg?v=1692890003&width=990"
+              
+          },
+          {
+              "type" : "Nike Liverpool Away Stadium Jersey 2023/24",
+              "color" : "White and Green",
+              "size" : "S/M/L/XL/XXL",
+              "price" : "Ksh.4,500",
+              "image" : "https://store.liverpoolfc.com/media/catalog/product/cache/dd504f005c0b90ffe1b9fb2344db1a87/l/u/luis_diaz-220.jpg"
+
+          },
+          {
+              "type" : "Real Madrid Mens Away Jersey 2023/24",
+              "color" : "Navy Blue",
+              "size" : "S/M/L/XL/XXL",
+              "price" : "Ksh.10,000",
+              "image" : "https://us.shop.realmadrid.com/cdn/shop/products/RMCFMZ0133-01_5c8befaa-2c6b-4dda-956e-fba36a3bbc02_500x480.jpg?v=1707138498"
+          },
+          {
+              "type" : "Blackburn Rovers FC 2023/24 Away Jersey",
+              "color" : "Black",
+              "size" : "S/M/L/XL/XXL",
+              "price" : "Ksh. 7,800",
+              "image" : "https://www.macron.com/cdn-cgi/image/quality=85/media/catalog/product/cache/7854776c5a059fa4314600f243e72018/5/8/58571208.jpg"
+          },
+
+          {
+              "type" : "Nike Royal Golden State Warriors Jersey",
+              "color" : "blue",
+              "size" : "S/M/L/XL/XXL/3XL",
+              "price" : "Ksh.12,000",
+              "image" : "https://images.footballfanatics.com/golden-state-warriors/unisex-nike-royal-golden-state-warriors-custom-swingman-badge-jersey-icon-edition_ss5_p-200104575+pv-1+u-b3tnoxoedkm7azljri1x+v-44rvt5ahtp5mgunxrnxl.jpg?_hv=2&w=900"
+          },
+          {
+              "type" : "Dallas Mavericks Nike Icon Swingman Jersey",
+              "color" : "Blue",
+              "size" : "S/M/L/XL/XXL",
+              "price" : "Ksh.12,500",
+              "image" : "https://dallasmavs.shop/cdn/shop/products/CUSTOMICON_1800x1800.png?v=1623270839"
+              
+          },
+          {
+              "type" : "LA Lakers Fast Break Jersey",
+              "color" : "Purple",
+              "size" : "S/M/L/XL/XXL",
+              "price" : "Ksh.8,500",
+              "image" : "https://fanatics.frgimages.com/los-angeles-lakers/mens-fanatics-branded-purple-los-angeles-lakers-2022/23-fast-break-custom-replica-jersey-statement-edition_ss5_p-4981149+pv-1+u-rky5rswy4lhmxxcno9w2+v-uw3ktzcnp94s6avs6wyp.jpg?_hv=2&w=900"
+  
+          },
+          {
+              "type" : "Wizards Nike 2022/23 Swingman Jersey",
+              "color" : "White",
+              "size" : "S/M/L/XL/XXL",
+              "price" : "Ksh.10,000",
+              "image" : "https://fanatics.frgimages.com/washington-wizards/unisex-nike-white-washington-wizards-2022/23-custom-swingman-jersey-classic-edition_ss5_p-200024331+pv-1+u-afz7ec3hbcgpsw1lu4on+v-kjsorm3lp4fjd8pvgkf6.jpg?_hv=2&w=900"
+          },
+          {
+              "type" : "76ers Fast Break CUstom Replica Jersey",
+              "color" : "Royal Blue",
+              "size" : "S/M/L/XL/XXL",
+              "price" : "Ksh. 7,800",
+              "image" : "https://images.footballfanatics.com/philadelphia-76ers/mens-fanatics-branded-royal-philadelphia-76ers-fast-break-custom-replica-jersey-icon-edition_pi2907000_altimages_ff_2907628alt1_full.jpg?_hv=2&w=900"
+      }
+  ],
+  "Shoes" : [
+      {
+          "type": "LeBron XXI",
+          "size" : "41-46",
+          "color" : "Black/Pink",
+          "price" : "Ksh.18,000",
+          "image" : "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/aaa815a2-9a99-4a62-8ad8-f23b8489c0ee/lebron-xxi-basketball-shoes-3zkL8z.png"
+      },
+      {
+          "type": "Luka 2 Team Bank",
+          "size" : "41-46",
+          "color" : "Black/Red/Blue",
+          "price" : "Ksh.8,500",
+          "image" : "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/f5eeecda-e3d1-48d6-9d9a-d02184652d92/luka-2-team-bank-basketball-shoes-qvvhqz.png"
+      },
+      {
+          "type": "Predator League Firm Ground Boots",
+          "size" : "41-46",
+          "color" : "Black/White/Yellow",
+          "price" : "Ksh.15,000",
+          "image" : "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/1c27b838529e46aa8c084e8949a319a1_9366/Predator_24_Pro_Firm_Ground_Boots_Black_IG7779_22_model.jpg"
+      }
+  ],
+  "Rackets" : [
+      {
+          "type" : "Tennis Rackets",
+          "color" : "Black/White",
+          "description" : "Strong and efficient tennis racket fit with the best performance.",
+          "image" : "https://tadssportinggoods.ca/cdn/shop/products/Screenshot2022-08-22at09-38-52Blade98_18x20_v8TennisRacket_1024x1024.png?v=1661186396"
+      },
+      {
+          "type" : "Cricket",
+          "color" : "Brown/White",
+          "description" : "High quality and long lasting racket fit for proper gameplay.",
+          "image" : "https://i.ebayimg.com/images/g/1~kAAOSwnYRjgao9/s-l1600.jpg"
+      }
+
   ]
+  
+  
+  
 }
